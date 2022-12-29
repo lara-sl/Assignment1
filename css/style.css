@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Almarai:wght@400;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #eee;
+    font-family: 'Almarai', sans-serif;
+}
+
+ul{ 
+    background-color:rgb(103, 7, 167);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+ul li{
+    display: inline-block;
+    margin-left: 20px; 
+    text-align: center;
+}
+ul li:hover{
+background-color: rgba(255, 255, 0, 0.541);
+}
+ul li a{
+    color:azure;
+    text-decoration: none;
+}
+.search{
+    float: right;
+    margin-right: 20px;
+    font-size: 14px;
+
+}
+.main-img{
+    height: 500px;
+    background-image: url(../images/img6.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+
+}
+.our-services{
+    padding: 50px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.our-services h1{
+    color: rgb(103, 7, 167) ;
+}
+
+.services{
+    display: flex;
+    margin-top: 25px;
+}
+.services .service{
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(225, 206, 243);
+    width: 30%;
+    margin: auto;
+    padding: 15px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+.service:hover{
+    box-shadow: 3px 3px 10px rgb(167, 95, 226);
+    transform: translateX(3px);
+    background-color:rgb(205, 150, 250) ;
+
+}
+
+.services .service i {
+    padding: 15px;
+    font-size: 30px;
+    background-color: rgb(136, 46, 196);
+    color: white;
+    border-radius: 50%;   
+}
+.services .service h3{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+/*start content style*/
+.content{
+    padding: 50px;
+    width: 80%;
+    background-color: rgb(225, 206, 243);
+    margin: auto;
+    text-align: center;
+}
+.content h1{
+    color:rgb(103, 7, 167);
+
+}
+.content p {
+    font-size: 20px;
+    margin-bottom: 25px;
+}
+.content img {
+    width: 300px;
+    height: 500px;
+}
+/*Start Contact Us*/
+.contact-us {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.contact-form {
+    width: 700px;
+    background-color:rgb(225, 206, 243);
+    margin: auto;
+    padding: 40px;
+    text-align: center;
+    border-radius: 5px;
+}
+.input-form {
+    margin-bottom: 20px;
+}
+.input-form input {
+    width: 400px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+textarea {
+    width: 400px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.btn-submit {
+    background-color: rgb(103, 7, 167);
+    color: white;
+    width: 200px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 5px;
+    font-size: 20px;
+    cursor: pointer;
+}
